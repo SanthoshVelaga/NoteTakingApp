@@ -1,0 +1,49 @@
+textarea {
+    padding: 12px;
+
+    resize: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 7px;
+
+    font: Helvetica;
+    font-size: 14px;
+    color: gray;
+} 
+
+body {
+    background:linear-gradient(90deg, #667eea 0%,#764ba2 100% );
+    padding: 7px 1.5px 2px 1.5px;
+}
+
+#container {
+    border-radius: 10px;
+}
+
+#top {
+    padding-bottom: 2px;
+    padding-left: 3px;
+}
+
+span {
+    border-radius: 15px;
+    display: inline-block;
+    margin: 6px;
+    font-size: 14px;
+    padding: 1px 15px 1px 12px;
+    color: white;
+
+}
+
+span:hover {
+    background-color: #1cf59b;
+    opacity: .5;
+}
+
+#span_selected {
+    background-color: #28f09d;
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Lit Note",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Take notes in the comfort of your browser.",
+    "background": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["saveIt.js", "jquery-2.2.4.min.js"]
+        }
+    ],
+    "icons": { "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "icon128.png" },
+    "permissions": [ "storage" ],
+    "browser_action": {
+        "default_popup": "popup_1.html",
+        "default_title": "Note Taking" 
+    }
+
+}
+
+
