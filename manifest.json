@@ -1,6 +1,6 @@
 {
     "name": "Post Notes",
-    "version": "1.0",
+    "version": "1.3",
     "manifest_version": 2,
     "description": "Take notes in the comfort of your browser.",
     "background": [
@@ -11,7 +11,7 @@
     ],
     "icons": { "16": "./assets/paper.png",
         "48": "./assets/paper.png",
-       "128": "./assets/postIt.png" },
+       "128": "128.png" },
     "permissions": [ "storage" ],
     "browser_action": {
         "default_popup": "popup_1.html",
